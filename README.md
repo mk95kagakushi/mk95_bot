@@ -1,4 +1,4 @@
-## ちょるボット　README
+## 電卓ボット　README
 
 >  ちょるボットは，自己満足のためのボットです．なのでバグや計算間違いなどのプログラムのミス，返信が帰ってこなかったり等の設備不良によって生じた，いかなる損失・損害・トラブルに対しても責任を負うことはしません．悪しからず．
 
@@ -42,32 +42,32 @@
 
 ＜未実装＞
 
-> @choll_bot list   
+> @mk95_bot list   
 
 とリプを送ることで，実装されているコマンド・関数のリストが書かれたURLが帰ってきます．
 
 ＜未実装＞
 
-> @choll_bot list DM  
+> @mk95_bot list DM  
 
 [ DM ]とオプションをつけることで，ダイレクトメッセージにリストを送られてきます．
 
 ＜未実装＞
 
-> @choll_bot list random
+> @mk95_bot list random
 
 [ random ]とオプションをつけることで，ランダムに関数を３つ教えてくれます．
 
 ---
 
 ### <a name ="Help"> help コマンド
-> @choll_bot help 関数名
+> @mk95_bot help 関数名
 
 とリプを送ることで，指定した関数のフォーマットが帰ってきます．関数名の部分はlistを参照してください
 
 ＜未実装＞
 
-> @choll_bot help English
+> @mk95_bot help English
 
 [ English ]とオプションをつけることで，英語で書かれたhelpが返ってきます．
 
@@ -77,7 +77,7 @@
 
 ＜未実装＞
 
-> @choll_bot destination @ユーザーネーム
+> @mk95_bot destination @ユーザーネーム
 
 とリプを送ることで，指定したユーザーにコマンドの実行結果を送ります．
 
@@ -87,7 +87,7 @@
 
 ＜未実装＞
 
-> @choll_bot problem 問題番号 解答
+> @mk95_bot problem 問題番号 解答
 
 とリプを送ることで，指定した番号の正誤判定ができます．
 
@@ -103,7 +103,7 @@
 ---
 
 ####pow
-> @choll_bot pow x n
+> @mk95_bot pow x n
 
 x:整数  
 n:整数  
@@ -112,7 +112,7 @@ n:整数
 ---
 
 ####factorial
-> @choll_bot factorial x
+> @mk95_bot factorial x
 
 x:整数  
 とリプを送る事で，x! (xの階乗)が返ってきます．
@@ -120,7 +120,7 @@ x:整数
 ---
 
 ####gcd
-> @choll_bot gcd x y
+> @mk95_bot gcd x y
 
 x:整数  
 y:整数  
@@ -129,7 +129,7 @@ y:整数
 ---
 
 ####lcm
-> @choll_bot lcm x y
+> @mk95_bot lcm x y
 
 x:整数  
 y:整数  
@@ -140,7 +140,7 @@ y:整数
 #### 整数論（パート２）
 
 ####eea
-> @choll_bot eea x y
+> @mk95_bot eea x y
 
 x:整数  
 y:整数  
@@ -150,7 +150,7 @@ a x b y c が返ってきます．
 ---
 
 ####mod_inv
-> @choll_bot mod_inv a m
+> @mk95_bot mod_inv a m
 
 a:整数  
 m:整数  
@@ -159,7 +159,7 @@ m:整数
 ---
 
 ####totient
-> @choll_bot totient x
+> @mk95_bot totient x
 
 x:整数  
 とリプを送る事で，オイラー関数・トゥーシェント関数・φ(x)が返ってきます．  
@@ -168,7 +168,7 @@ x:整数
 ---
 
 ####chinese
-> @choll_bot chinese n a1 m1 a2 m2 ... an mn
+> @mk95_bot chinese n a1 m1 a2 m2 ... an mn
 
 n:整数  
 ai:整数  
@@ -185,7 +185,7 @@ an ≡ x (mod mn)
 #### 組み合わせ・順列
 
 ####perm
-> @choll_bot perm n r
+> @mk95_bot perm n r
 
 n:整数  
 r:整数  
@@ -194,7 +194,7 @@ r:整数
 ---
 
 ####perm_rep
-> @choll_bot perm_rep n r
+> @mk95_bot perm_rep n r
 
 n:整数  
 r:整数  
@@ -203,7 +203,7 @@ r:整数
 ---
 
 ####comb
-> @choll_bot perm n r
+> @mk95_bot perm n r
 
 n:整数  
 r:整数  
@@ -212,7 +212,7 @@ r:整数
 ---
 
 ####comb_rep
-> @choll_bot comb_rep n r
+> @mk95_bot comb_rep n r
 
 n:整数  
 r:整数  
@@ -223,7 +223,7 @@ r:整数
 #### お遊び（パート１）
 
 ####egyptian_fraction
-> @choll_bot egyptian_fraction a b
+> @mk95_bot egyptian_fraction a b
 
 a:整数  
 b:整数  
@@ -235,7 +235,7 @@ b:整数
 ＜未実装＞
 
 ####rand
-> @choll_bot rand a b
+> @mk95_bot rand a b
 
 a:整数  
 b:整数  
