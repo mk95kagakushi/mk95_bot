@@ -80,7 +80,7 @@
 
 ---
 
-### <a name ="Plobleem"> problem コマンド
+### <a name ="Ploblem"> problem コマンド
 
 ＜未実装＞
 
